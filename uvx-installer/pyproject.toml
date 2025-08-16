@@ -1,0 +1,10 @@
+[project]
+name = "install-autoencode"
+version = "0.1.0"
+description = "An installer for the /autoencode command for gemini-cli."
+authors = [{ name = "HOLO-Q", email = "contact@holo-q.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+install-autoencode = "install_autoencode:main"

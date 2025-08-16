@@ -1,0 +1,11 @@
+{
+  "name": "install-autoencode",
+  "version": "0.1.0",
+  "description": "An installer for the /autoencode command for gemini-cli.",
+  "main": "index.js",
+  "bin": {
+    "install-autoencode": "./index.js"
+  },
+  "author": "HOLO-Q",
+  "license": "MIT"
+}
