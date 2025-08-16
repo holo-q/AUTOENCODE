@@ -34,6 +34,9 @@ This command prompts the agent to update its living model of the user, stored in
 
 **The Blueprint:** The `USER.md` is structured around the following dimensions:
 
+**Storage & Scoping:** By default, when `/autoencode_me` is invoked without a specific target, the agent will create or update the `USER.md` file at the canonical location: `~/.config/holo-q/USER.md`. This ensures your personal "soul" file is stored in a standard, user-specific configuration directory.
+
+
 *   **I. The Foundation (The "What"):** The user's explicit profile, goals, and preferences.
 *   **II. The Architecture (The "How"):** The user's inferred cognitive, linguistic, and feedback patterns.
 *   **III. The Core (The "Why"):** The user's strategic intent, motivations, and declared immutable values.
